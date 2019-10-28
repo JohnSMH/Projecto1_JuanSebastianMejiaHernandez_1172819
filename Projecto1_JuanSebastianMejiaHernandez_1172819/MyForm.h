@@ -508,14 +508,24 @@ namespace Projecto1JuanSebastianMejiaHernandez1172819 {
 			}
 			else {
 				Devolver(Lis->Quitar());
+				
 			}
 			
 	}
+		richTextBoxPrecios->Text += "Precio " + (numit)+" ha sido eliminado" + "\n";
+		if (numit==0)
+		{
+
+		}
+		else {
+			numit--;
+		}
 		
-	richTextBoxPrecios->Text += "Precio " + (numit)+" ha sido eliminado"+"\n";
+		
+	
 	ImprimirC();
 	ImprimirP();
-	numit--;
+	
 
 	if (numit==0)
 	{

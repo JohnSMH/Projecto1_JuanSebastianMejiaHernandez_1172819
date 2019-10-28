@@ -1,5 +1,6 @@
 #include "Cola.h"
 
+
 Cola::Cola()
 {
 	NElementos = 0;
